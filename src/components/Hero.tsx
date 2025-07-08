@@ -37,8 +37,8 @@ const Hero = () => {
         <div className="animate-fade-in">
           {/* Enhanced greeting with icon */}
           <div className="flex items-center justify-center mb-6">
-            <Sparkles className="w-8 h-8 text-yellow-400 mr-3 animate-pulse" />
-            <span className="text-xl text-gray-300 font-light">Hello, I'm</span>
+            <Sparkles className="w-8 h-8 text-yellow-400 mr-3 animate-pulse mt-3" />
+            <span className="text-2xl text-gray-300 font-light pt-3">Hello, I'm</span>
           </div>
           
           <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 leading-tight">
