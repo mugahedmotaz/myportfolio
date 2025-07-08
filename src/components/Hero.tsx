@@ -80,7 +80,7 @@ const Hero = () => {
           {/* Enhanced social links */}
           <div className="flex justify-center space-x-8 mb-16">
             <a
-              href="https://github.com"
+              href="https://github.com/mugahedmotaz"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-110 hover:rotate-6"
@@ -88,7 +88,7 @@ const Hero = () => {
               <Github className="w-7 h-7 text-white group-hover:text-blue-400 transition-colors" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/mugahedmotaz"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-110 hover:rotate-6"
@@ -101,13 +101,7 @@ const Hero = () => {
             >
               <Mail className="w-7 h-7 text-white group-hover:text-purple-400 transition-colors" />
             </a>
-            <a
-              href="/resume.pdf"
-              download
-              className="group p-4 rounded-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-110 hover:rotate-6 shadow-lg"
-            >
-              <Download className="w-7 h-7 text-white" />
-            </a>
+            
           </div>
         </div>
 

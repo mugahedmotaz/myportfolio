@@ -49,25 +49,17 @@ const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/mugahedmotaz",
       color: "hover:text-gray-900",
       bg: "hover:bg-gray-100"
     },
     {
       icon: Linkedin,
       name: "LinkedIn",
-      url: "https://linkedin.com",
+      url: "https://linkedin.com/in/mugahedmotaz",
       color: "hover:text-blue-600",
       bg: "hover:bg-blue-50"
     },
-    {
-      icon: Twitter,
-      name: "Twitter",
-      url: "https://twitter.com",
-      color: "hover:text-blue-400",
-      bg: "hover:bg-blue-50"
-    },
-
   ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
