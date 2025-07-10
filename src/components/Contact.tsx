@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useState } from "react";
+import Logo from "./logo.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -227,6 +228,7 @@ const Contact = () => {
           <p className="text-white/60">
             Let's create something amazing together!
           </p>
+          <img src={Logo} alt="Logo" className="inline-block w-16 h-16 mt-5" />
         </div>
       </div>
     </section>

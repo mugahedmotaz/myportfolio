@@ -1,8 +1,7 @@
 
 import { ArrowDown, Github, Linkedin, Mail, Download, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Logo from "logo.png"
-
+import Logo from "./logo.png"
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -38,14 +37,13 @@ const Hero = () => {
         <div className="animate-fade-in">
           {/* Enhanced greeting with icon */}
           <div className="flex items-center justify-center mb-6">
-            <img src={Logo} />
             <Sparkles className="w-8 h-8 text-yellow-400 mr-3 animate-pulse mt-3" />
             <span className="text-2xl text-gray-300 font-light pt-3">Hello, I'm</span>
           </div>
           
           <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 leading-tight">
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
-              Mugahed Motaz
+            <img src={Logo} alt="Logo" className="inline-block w-16 h-16" />  Mugahed Motaz
             </span>
           </h1>
           
