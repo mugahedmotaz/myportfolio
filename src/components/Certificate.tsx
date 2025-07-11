@@ -2,10 +2,11 @@ import { ExternalLink, Github, Star, Calendar, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
-const Projects = () => {
+
+const Certificate = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Google AI Sptialist",
       description: "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment integration, and admin dashboard.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80",
       technologies: ["React", "Node.js", "PostgreSQL", "Tailwind"],
@@ -19,7 +20,7 @@ const Projects = () => {
       description: "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80",
       technologies: ["React", "Firebase", "Material-UI", "WebSocket"],
-      liveUrl: "https://example.com",
+      // liveUrl: "https://example.com",
       githubUrl: "https://github.com",
       featured: true,
       stats: { stars: 189, contributors: 5, year: "2024" }
@@ -74,7 +75,7 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8">
-            Featured Projects
+            Greate Certificate and Courses
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
@@ -272,4 +273,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Certificate;

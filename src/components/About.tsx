@@ -17,7 +17,7 @@ const About = () => {
     },
     {
       icon: Smartphone,
-      title: "Mobile Development",
+      title: "Responsive Design ",
       description: "Developing responsive web applications and mobile-first designs that work seamlessly across devices.",
       color: "from-green-500 to-emerald-500"
     },
@@ -30,9 +30,9 @@ const About = () => {
   ];
 
   const stats = [
-    { icon: Award, number: "50+", label: "Projects Completed" },
-    { icon: Users, number: "30+", label: "Happy Clients" },
-    { icon: Coffee, number: "1000+", label: "Cups of Coffee" },
+    { icon: Award, number: "10+", label: "Projects Completed" },
+    { icon: Users, number: "10+", label: "Happy Clients" },
+    { icon: Coffee, number: "170+", label: "Cups of Coffee" },
     { icon: Heart, number: "∞", label: "Passion for Code" }
   ];
 

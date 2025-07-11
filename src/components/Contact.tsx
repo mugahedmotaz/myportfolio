@@ -1,5 +1,5 @@
 
-import { Mail, MapPin, Phone, Github, Linkedin, Twitter, Send, Calendar, MessageCircle } from "lucide-react";
+import { Mail, MapPin, Phone, Github, Linkedin, Twitter, Send, Calendar, MessageCircle, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -57,6 +57,20 @@ const Contact = () => {
     {
       icon: Linkedin,
       name: "LinkedIn",
+      url: "https://linkedin.com/in/mugahedmotaz",
+      color: "hover:text-blue-600",
+      bg: "hover:bg-blue-50"
+    },
+    {
+      icon: Facebook,
+      name: "Facebook",
+      url: "https://linkedin.com/in/mugahedmotaz",
+      color: "hover:text-blue-600",
+      bg: "hover:bg-blue-50"
+    },
+    {
+      icon: Twitter,
+      name: "Twitter",
       url: "https://linkedin.com/in/mugahedmotaz",
       color: "hover:text-blue-600",
       bg: "hover:bg-blue-50"
@@ -228,7 +242,7 @@ const Contact = () => {
           <p className="text-white/60">
             Let's create something amazing together!
           </p>
-          <img src={Logo} alt="Logo" className="inline-block w-16 h-16 mt-5" />
+          <img src={Logo} alt="Logo" className="inline-block w-16 h-16 mt-5 animate-pulse" />
         </div>
       </div>
     </section>
