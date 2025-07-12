@@ -15,13 +15,23 @@ const Projects = () => {
       stats: { stars: 245, contributors: 8, year: "2024" }
     },
     {
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      title: "Motaz-Aljali for Consulting",
+      description: "Motaz for consulting lower ",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80",
+      technologies: ["HTML", "Resposive Design", "CSS", "js"],
+      liveUrl: "https://mugahedmotaz.github.io/motaz-aljali/",
+      githubUrl: "https://github.com/mugahedmotaz/motaz-aljali",
+      // featured: true,
+      stats: { stars: 2, contributors: 1, year: "2024" }
+    },
+    {
+      title: "Task and Habit Management App",
+      description: "A collaborative task management and time management and improve your Producativity ",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80",
-      technologies: ["React", "Firebase", "Material-UI", "WebSocket"],
+      technologies: ["React", "Tailwind", "node.js", "Vercel"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com",
-      featured: true,
+      // featured: true,
       stats: { stars: 189, contributors: 5, year: "2024" }
     },
     {

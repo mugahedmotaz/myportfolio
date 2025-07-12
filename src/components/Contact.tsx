@@ -1,5 +1,5 @@
 
-import { Mail, MapPin, Phone, Github, Linkedin, Twitter, Send, Calendar, MessageCircle, Facebook } from "lucide-react";
+import { Mail, MapPin, Phone, Github, Linkedin, Twitter , Send, Calendar, MessageCircle, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -237,7 +237,7 @@ const Contact = () => {
         {/* Bottom section */}
         <div className="mt-20 pt-12 border-t border-white/20 text-center">
           <p className="text-blue-200 text-lg mb-4">
-            © 2024 Mugahed Motaz. Built with React, TypeScript, and lots of ☕
+            © 2025 Mugahed Motaz. Built with React, TypeScript, and lots of ☕
           </p>
           <p className="text-white/60">
             Let's create something amazing together!
@@ -245,6 +245,7 @@ const Contact = () => {
           <img src={Logo} alt="Logo" className="inline-block w-16 h-16 mt-5 animate-pulse" />
         </div>
       </div>
+
     </section>
   );
 };

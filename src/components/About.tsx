@@ -99,7 +99,7 @@ const About = () => {
               Whether you have a specific idea or need help bringing your vision to life, let's connect!
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
-              {["React", "TypeScript", "Node.js", "Python", "AWS", "PostgreSQL", "Next.js", "Tailwind"].map((tech) => (
+              {["React", "TypeScript", "Node.js", "Python", "JavaScript", "AI", "Next.js", "Tailwind"].map((tech) => (
                 <span key={tech} className="px-6 py-3 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium border border-white/30 hover:bg-white/30 transition-all duration-300">
                   {tech}
                 </span>

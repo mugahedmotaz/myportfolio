@@ -1,5 +1,5 @@
 
-import { ArrowDown, Github, Linkedin, Mail, Download, Sparkles } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download, Sparkles, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Logo from "./logo.png"
 const Hero = () => {
@@ -43,9 +43,10 @@ const Hero = () => {
           
           <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 leading-tight">
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
-            <img src={Logo} alt="Logo" className="inline-block w-16 h-16" />  Mugahed Motaz
+              Mugahed Motaz
             </span>
           </h1>
+            <img src={Logo} alt="Logo" className="inline-block w-16 h-16 mb-5 animate-pulse" />
           
           <div className="mb-8">
             <p className="text-2xl md:text-3xl text-gray-300 mb-4 font-light">
@@ -94,6 +95,14 @@ const Hero = () => {
               className="group p-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-110 hover:rotate-6"
             >
               <Linkedin className="w-7 h-7 text-white group-hover:text-blue-400 transition-colors" />
+            </a>
+            <a
+              href="https://facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-110 hover:rotate-6"
+            >
+              <Facebook className="w-7 h-7 text-white group-hover:text-blue-400 transition-colors" />
             </a>
             <a
               href="mailto:mugahedmotaz@gmail.com"

@@ -16,7 +16,7 @@ const Certificate = () => {
       stats: { stars: 245, contributors: 8, year: "2024" }
     },
     {
-      title: "Task Management App",
+      title: "Frontend From Meta",
       description: "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80",
       technologies: ["React", "Firebase", "Material-UI", "WebSocket"],
